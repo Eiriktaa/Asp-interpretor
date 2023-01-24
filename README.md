@@ -1,6 +1,16 @@
 # Asp-interpretor
 - A showcase of an interpretor project that was given as the final exam in the course IN2030 @ UIO (2022)
-- The code cannot be displayed in a public repository because it is still part of a running course, but any interested party can inquire to see more of the code :)
+- The code cannot be displayed in a public repository because it is still part of a running course, but any interested party can inquire to see more or discuss the code :)
+
+The interpretor can be run by downloading the asp.jar file and running it as a jar file. 
+```
+java -jar asp.jar myAspFileHere.asp -logflag
+```
+Possible flags:
+- -logS: scanner logfiles
+- -logP: parser logfiles/syntax tree
+- -logE: traces variables/function calls during runtime 
+
 
 ## Assignment
 -The assignement was a 4 part project spanning the entire semester to create an interpretor for a python-like language. The language ASP is a barebones version of python containing most of the baseline functionalites of the language. The compiler itself is written in Java.
